@@ -56,7 +56,7 @@ class App extends React.Component
 
     return (
      
-      <body className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen">
         <Navbar/>
         
       <header className="flex flex-col items-center justify-center p-8">
@@ -64,7 +64,7 @@ class App extends React.Component
         <h1 className="font-bold capitalize text-gray-500 dark:text-gray-400 text-center text-lg pt-4">Try-Not-to-Laugh Challenge</h1>
         </header>
 
-         <main class="flex-grow">
+         <main className="flex-grow">
         
           
         <div className="container text-gray-500 dark:text-gray-400 flex flex-col items-center justify-center gap-4 p-4 md:p-8" id="quote-box">
@@ -93,7 +93,7 @@ class App extends React.Component
             </div>
            
           </main>
-           </body>
+           </div>
     );
   }
 }
